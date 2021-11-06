@@ -8,6 +8,8 @@ Estrutura front desenvolvida com **ReactJS**. A plataforma consome informações
 - Axios
 - Tailwind CSS
 - React Router Dom
+- React Toastify (Alertas e notificações)
+- Faker.js (Exibição de imagens de avatar)
 
 # Estilização
 

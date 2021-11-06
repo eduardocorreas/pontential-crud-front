@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { ToastContainer } from "react-toastify";
 import "./index.css";
+import "react-toastify/dist/ReactToastify.css";
 import Routes from "./routes";
 import reportWebVitals from "./reportWebVitals";
 import Header from "./components/Header";
@@ -9,6 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Routes />
+    <ToastContainer />
   </React.StrictMode>,
   document.getElementById("root")
 );

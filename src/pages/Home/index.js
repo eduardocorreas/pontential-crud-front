@@ -1,7 +1,1 @@
-import React from "react";
-
-function Home() {
-  return <p>home</p>;
-}
-
-export default Home;
+export { default } from "./HomeContainer.js";
