@@ -27,3 +27,13 @@ Página inicial que exibe todos os desenvolvedores cadastrados
 Developer /developer/:id
 Exibe informações detalhadas do desenvolvedor selecionado
 ```
+
+```
+Developer /developer/create
+Página para cadastro de desenvolvedores
+```
+
+```
+Developer /developer/edit/:id
+Página para edição de desenvolvedores
+```
