@@ -31,12 +31,12 @@ function Developer({ developer }) {
                   {developer.sexo === "f" ? (
                     <>
                       <FontAwesomeIcon icon={faFemale} /> Desenvolvedora{" "}
-                      {developer.specialty}
+                      {developer.especialidade}
                     </>
                   ) : (
                     <>
                       <FontAwesomeIcon icon={faMale} /> Desenvolvedor{" "}
-                      {developer.specialty}
+                      {developer.especialidade}
                     </>
                   )}
                 </div>
