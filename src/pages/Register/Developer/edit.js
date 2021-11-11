@@ -28,8 +28,8 @@ function EditDeveloper() {
           hobby: hobbies,
         })
         .then(() => {
-          toast.success("Desenvolvedor cadastrado com sucesso");
-          window.location.replace("/");
+          window.location.assign("/");
+          toast.success("Desenvolvedor atualizado com sucesso");
         })
         .catch(() => {
           toast.error("Erro ao cadastrar desenvolvedor");
